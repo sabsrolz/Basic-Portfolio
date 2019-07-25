@@ -5,18 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sabrina Contact</title>
+    <link rel= "stylesheet" type = "text/css" href = "assets/css/style.css"/>
 </head>
 
-<body>
-    <h1>Contact</h1>
-    
-    <section id= "Contact">
-        <div id= "Name">Name</div>
-        <div id = "Email">Email</div>
-        <div id = "Message">Message</div>
-        <div id = "Submit">Submit</div>
-    </section>
+<body background = "assets/images/morocco.png">
 
+    <header id = "header">
+        <h1 id = "name">Sabrina Rolz</h1>
+            <div id = "buttons">
+                <a href="#" id = "about"><span>About</span></a>
+                <a href="#" id = "portfolio"><span>Portfolio</span></a>
+                <a href="#" id = "contact"><span>Contact</span></a>
+            </div>
+    </header>
+
+    <container>
+        <div class = "form">      
+            <h1>Contact</h1>
+          
+            <form>
+               Name:<br>
+               <input id = "name_button" type="text" name="Name" value="John Smith"><br>
+               Email:<br>
+               <input id = "email_button" type="text" name="Email" value="example@gmail.com"><br>
+               Message:<br>
+               <input id= "message_button" type="text" name="Message"><br>
+               <input id = "submit_button" type="submit" value="Submit">
+            </form>
+    
+        </div>
+    </container>
 
 </body>
 </html>
