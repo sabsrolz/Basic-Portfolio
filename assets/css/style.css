@@ -1,7 +1,7 @@
 #name {
     background-color:#4aaaa5;
     color:#ffffff;
-    margin-left: 5%;
+    margin-left: 152px;
     padding: 20px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     display: inline;
@@ -22,14 +22,20 @@
 .main {
     background-color: #ffffff;
     overflow: auto;
-    margin-right:60px;
-    margin-left:60px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    padding-right: 20px;
+    width: 960px;
 }
 
 .form {
     background-color: #ffffff;
-    margin-left:80px;
-    padding-left:25px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    position: center;
 }
 
 .Portfolio {
@@ -42,40 +48,66 @@
 }
 
 h2 {
-   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   font-family: 'Georgia', Times, Times New Roman, serif;
+   color: #4aaaa5;
    padding-left: 60px;
+   padding-right: 60px;
    padding-top: 30px;
+   padding-bottom: 30px;
+   border-bottom: solid;
+   border-color: #cccccc;
+
+}
+
+
+hr {
+   background-color: #cccccc;
+   display: block; 
+   margin-left: 20px;
+   margin-bottom: 10px;
+   height: 1px;
 }
 
 #image {
     height: 265px;
-    width: 250px;
+    width: 260px;
     display: inline-block;
     float: left;
     padding-bottom: 50px;
     padding-right:20px;
+    padding-left: 20px;
 }
 
-#aboutme {
-    display: inline;
+.aboutme {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
 }
 
-#hobbies {
-    display: inline;
-    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+#bottom_border {
+    background-color: #4aaaa5;
+    height: 5px;
+    margin-top: 98%;
 }
 
 #name_button {
 margin-top:3px;
-margin-bottom:10px;  
-width: 95%; 
+margin-bottom:10px; 
+width: 95%;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+color: #777777;
 }
 
 #email_button {
 margin-top:3px;
 margin-bottom:10px;
 width: 95%;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+color: #777777;
 }
 
 #message_button {
