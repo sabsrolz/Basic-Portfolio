@@ -32,6 +32,15 @@
     padding-left:25px;
 }
 
+.Portfolio {
+    background-color: #ffffff;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    position: center;
+}
+
 h2 {
    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
    padding-left: 60px;
@@ -78,4 +87,48 @@ height: 200px;
 
 #submit_button {
 margin-bottom:10px;
+}
+
+.row {
+display:flex;
+flex-wrap:wrap;
+padding: 10px;
+text-align: left;
+}
+  
+.column{
+flex: 50%;
+padding: 20px;
+}
+
+.column img {
+margin-top: 8px;
+vertical-align: middle;
+}
+
+#hangman {
+width: 200px;
+height: 200px;
+position: relative;
+}
+
+#wordsearch {
+width: 200px;
+height: 200px;
+padding-left: 20px;
+}
+
+#trivia {
+width: 200px;
+height: 200px;
+}
+
+#rockpaper {
+width: 200px;
+height: 200px;
+padding-left: 20px;
+}
+
+.text-block { 
+    position: absolute;
 }
