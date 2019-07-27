@@ -1,7 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 #name {
     background-color:#4aaaa5;
     color:#ffffff;
-    margin-left: 152px;
+    margin-left: 125px;
     padding: 20px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     display: inline;
@@ -42,8 +48,14 @@
     margin-right: auto;
     margin-left: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
     padding-right: 20px;
     width: 960px;
+}
+
+#form_wrapper {
+display: flex;
+flex-direction: column;
 }
 
 .form {
@@ -52,9 +64,11 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
     position: center;
     width: 960px;
     padding-right: 20px;
+    flex: 1 0 auto;
 }
 
 #form_elements {
@@ -67,9 +81,11 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
     position: center;
     width: 960px;
     padding-right: 20px;
+    overflow: auto;
 }
 
 h2 {
@@ -91,6 +107,26 @@ h2 {
    height: 1px;
 
 }
+
+.row {
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;
+}
+
+
+.column {
+flex: 50%;
+padding: 0 4px;
+}
+
+.column img {
+    margin: 20px;
+    vertical-align: middle;
+    height: 200px;
+    width: 200px;
+    
+  }
 
 #image_paragraph {
     margin-top: 30px;
@@ -156,46 +192,16 @@ padding-left: 5px;
 padding-right: 5px;
 width: 90px;
 }
-
-.row {
-display:flex;
-flex-wrap:wrap;
-padding: 10px;
-text-align: left;
-}
   
 .column{
-flex: 50%;
 padding: 20px;
-}
-
-.column img {
-margin-top: 8px;
-vertical-align: middle;
-}
-
-#hangman {
-width: 200px;
-height: 200px;
 position: relative;
 }
 
-#wordsearch {
-width: 200px;
-height: 200px;
-padding-left: 20px;
-}
-
-#trivia {
-width: 200px;
-height: 200px;
-}
-
-#rockpaper {
-width: 200px;
-height: 200px;
-padding-left: 20px;
-}
+/* .column img {
+margin-top: 8px;
+vertical-align: middle;
+} */
 
 .text-block { 
     position: absolute;
@@ -208,5 +214,20 @@ footer {
     height: 50px;
     border-top:8px solid; 
     border-color: #4aaaa5;
-    position: fixed;
+    position: absolute;
+}
+
+.index_footer {
+flex-shrink: 0;
+position: static;   
+}
+
+.form_footer {
+flex-shrink: 0;
+position: static;
+}
+
+.portfolio_footer {
+flex-shrink: 0;
+position: static;
 }
